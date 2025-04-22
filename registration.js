@@ -34,7 +34,7 @@ document.getElementById('registrationForm').addEventListener('submit', function(
 
     // Google Apps ScriptのWebアプリへデータ送信
     // ※FetchのContent-Typeはプリフライト回避のためにapplication/x-www-form-urlencodedに設定
-    return fetch('https://script.google.com/macros/s/AKfycbwh4nuCij2qHyHWDLOIOqH4UsEr-3Kd5jKhow73hiED8DeP_qz4_d8HSrb2XvQRqcfYwQ/exec', {
+    return fetch('https://script.google.com/macros/s/AKfycbwEF6xCX2ON73zh9BgEnW9ExFgkHN1fpZgODrUmOGmDO7fXxoog9iNDzhDOAGGpw4DALw/exec', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/x-www-form-urlencoded'
